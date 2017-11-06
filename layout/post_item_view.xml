@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/list_grad"
+        android:weightSum="100">
+        
+        <ImageView
+            android:id="@+id/postimg"
+            android:layout_marginLeft="10dp"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+
+
+
+            android:layout_weight="80"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="16dp">
+            
+            <TextView
+                android:id="@+id/postname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/posttime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/postmsg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            
+            
+        </LinearLayout>
+        
+        
+        
+    </LinearLayout>
+
+</LinearLayout>

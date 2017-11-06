@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#f4f4f4" >
+
+    <TextView
+        android:id="@+id/nopos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="@color/Black"/>
+
+    <ListView
+
+        android:id="@+id/lv_posts"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"/>
+
+</LinearLayout>
+
+
+    <!--<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.dhairyapujara.hw9_final.fragment.PostsFragment">
+
+
+        <TextView
+            android:id="@+id/nopos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="130dp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textColor="@color/Black"/>
+
+        <ListView
+
+            android:id="@+id/lv_posts"
+            android:layout_marginTop="140dp"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            />
+
+    </FrameLayout>-->
